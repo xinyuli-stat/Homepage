@@ -1,0 +1,90 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #e4ecd8;
+    box-shadow: 1px 1px 3px #888888;
+    z-index: 100;
+}
+.navbar p{
+    padding-left: 15%;
+    height:20px; 
+    line-height:45px;
+    font-family: Comic Sans MS;
+    text-shadow: rgb(39, 34, 34) 0px 0px 3px;
+    color:rgb(88, 88, 88);
+    font-size:40px
+}
+.sidebar{
+    position: fixed;
+    background-color: #dfeefc;
+    width: 12%;
+    height: 100%;
+    text-align: left;
+    padding-left: 2%;
+    padding-top: 7%;
+}
+.sidebar li{
+    margin-top: 5%;
+    font-size: larger;
+}
+.sidebar h3{
+    margin-bottom: 20%;
+}
+#introduction{
+    padding-top: 10%;
+    margin-left: 8%;
+}
+#profile{
+    text-align: center;
+    position: relative;
+    padding: 30px 10px;
+}
+.avatar{
+    width:270px;
+    height:270px;
+    margin:0 auto;
+    object-fit:cover;
+    border-radius: 50%
+}
+.card-simple{
+    background:#fff;
+    box-shadow:0 1px 4px rgba(0,0,0,0.04);
+    border:1px solid rgba(0,0,0,0.09);
+    border-radius:3px;margin-top:20px;
+    padding:15px 20px 15px 20px
+}
+.card-simple:first-of-type{
+    margin-top:0
+}
+.card-simple p.read-more{
+    margin:0
+}
+.dark .card-simple{
+    background:#282a36;
+    box-shadow:0 1px 4px rgba(0,0,0,0.04);
+    border:1px solid #44475a
+}
+.summary-link{
+    color:unset;
+    text-decoration:none
+}
+.blog-main{
+    padding-top: 6%;
+    margin-left: 15%;
+}
+#talkscard{
+    padding-bottom: 5%;
+}
+.paperitem{
+    border-left: 4px solid #db8c0e;
+}
+.paperitem p{
+    margin-left: 30px;
+}
+.blog-post-title{
+    color: #004e81;
+}
